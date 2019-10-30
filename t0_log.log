@@ -1,0 +1,1509 @@
+C:\Users\Wu\Anaconda3\envs\TF2CPU\python.exe C:/Users/Wu/Desktop/checkpoint_test/t0.py
+2019-10-30 17:26:27.794318: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-10-30 17:26:27.799165: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:258] Initialize GrpcChannelCache for job worker -> {0 -> localhost:12345, 1 -> localhost:23456}
+2019-10-30 17:26:27.803263: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:365] Started server with target: grpc://localhost:12345
+worker/normalize_element/component_0
+worker/TensorSliceDataset
+worker/cycle_length
+worker/block_length
+worker/num_parallel_calls
+worker/ParallelInterleaveDatasetV2
+worker/num_parallel_calls_1
+worker/ParallelMapDataset
+worker/num_parallel_calls_2
+worker/ParallelMapDataset_1
+worker/buffer_size
+worker/PrefetchDataset
+worker/normalize_element_1/component_0
+worker/TensorSliceDataset_1
+worker/buffer_size_1
+worker/seed
+worker/seed2
+worker/ShuffleDataset
+worker/cycle_length_1
+worker/block_length_1
+worker/num_parallel_calls_3
+worker/ParallelInterleaveDatasetV2_1
+worker/num_parallel_calls_4
+worker/ParallelMapDataset_2
+worker/num_parallel_calls_5
+worker/ParallelMapDataset_3
+worker/buffer_size_2
+worker/PrefetchDataset_1
+worker/num_shards
+worker/index
+worker/ShardDataset
+worker/MapDataset
+worker/filename
+worker/CacheDataset
+worker/buffer_size_3
+worker/seed_1
+worker/seed2_1
+worker/ShuffleDataset_1
+worker/batch_size
+worker/drop_remainder
+worker/BatchDatasetV2
+worker/optimizations
+worker/OptimizeDataset
+worker/ModelDataset
+worker/Const
+worker/MultiDeviceIterator
+worker/MultiDeviceIteratorInit/max_buffer_size
+worker/MultiDeviceIteratorInit
+worker/MultiDeviceIteratorToStringHandle
+worker/GeneratorDataset
+worker/GeneratorDataset_1
+worker/buffer_size_4
+worker/PrefetchDataset_2
+worker/IteratorV2
+worker/MakeIterator
+worker/IteratorToStringHandle
+worker/group_deps
+worker/global_step/Initializer/zeros
+worker/global_step/Initializer/CollectiveBcastSend
+worker/global_step/Initializer/Identity
+worker/global_step
+worker/global_step/IsInitialized/VarIsInitializedOp
+worker/global_step/Assign
+worker/global_step/Read/ReadVariableOp
+worker/Identity/ReadVariableOp
+worker/Identity
+worker/Identity_1
+worker/IteratorGetNext
+worker/Const_1
+worker/conv2d_input
+worker/conv2d/kernel/Initializer/random_uniform/shape
+worker/conv2d/kernel/Initializer/random_uniform/min
+worker/conv2d/kernel/Initializer/random_uniform/max
+worker/conv2d/kernel/Initializer/random_uniform/RandomUniform
+worker/conv2d/kernel/Initializer/random_uniform/sub
+worker/conv2d/kernel/Initializer/random_uniform/mul
+worker/conv2d/kernel/Initializer/random_uniform
+worker/conv2d/kernel/Initializer/CollectiveBcastSend
+worker/conv2d/kernel/Initializer/Identity
+worker/conv2d/kernel
+worker/conv2d/kernel/IsInitialized/VarIsInitializedOp
+worker/conv2d/kernel/Assign
+worker/conv2d/kernel/Read/ReadVariableOp
+worker/conv2d/bias/Initializer/zeros
+worker/conv2d/bias/Initializer/CollectiveBcastSend
+worker/conv2d/bias/Initializer/Identity
+worker/conv2d/bias
+worker/conv2d/bias/IsInitialized/VarIsInitializedOp
+worker/conv2d/bias/Assign
+worker/conv2d/bias/Read/ReadVariableOp
+worker/conv2d/dilation_rate
+worker/conv2d/Conv2D/ReadVariableOp
+worker/conv2d/Conv2D
+worker/conv2d/BiasAdd/ReadVariableOp
+worker/conv2d/BiasAdd
+worker/conv2d/Relu
+worker/max_pooling2d/MaxPool
+worker/flatten/Reshape/shape
+worker/flatten/Reshape
+worker/dense/kernel/Initializer/random_uniform/shape
+worker/dense/kernel/Initializer/random_uniform/min
+worker/dense/kernel/Initializer/random_uniform/max
+worker/dense/kernel/Initializer/random_uniform/RandomUniform
+worker/dense/kernel/Initializer/random_uniform/sub
+worker/dense/kernel/Initializer/random_uniform/mul
+worker/dense/kernel/Initializer/random_uniform
+worker/dense/kernel/Initializer/CollectiveBcastSend
+worker/dense/kernel/Initializer/Identity
+worker/dense/kernel
+worker/dense/kernel/IsInitialized/VarIsInitializedOp
+worker/dense/kernel/Assign
+worker/dense/kernel/Read/ReadVariableOp
+worker/dense/bias/Initializer/zeros
+worker/dense/bias/Initializer/CollectiveBcastSend
+worker/dense/bias/Initializer/Identity
+worker/dense/bias
+worker/dense/bias/IsInitialized/VarIsInitializedOp
+worker/dense/bias/Assign
+worker/dense/bias/Read/ReadVariableOp
+worker/dense/MatMul/ReadVariableOp
+worker/dense/MatMul
+worker/dense/BiasAdd/ReadVariableOp
+worker/dense/BiasAdd
+worker/dense/Relu
+worker/dense_1/kernel/Initializer/random_uniform/shape
+worker/dense_1/kernel/Initializer/random_uniform/min
+worker/dense_1/kernel/Initializer/random_uniform/max
+worker/dense_1/kernel/Initializer/random_uniform/RandomUniform
+worker/dense_1/kernel/Initializer/random_uniform/sub
+worker/dense_1/kernel/Initializer/random_uniform/mul
+worker/dense_1/kernel/Initializer/random_uniform
+worker/dense_1/kernel/Initializer/CollectiveBcastSend
+worker/dense_1/kernel/Initializer/Identity
+worker/dense_1/kernel
+worker/dense_1/kernel/IsInitialized/VarIsInitializedOp
+worker/dense_1/kernel/Assign
+worker/dense_1/kernel/Read/ReadVariableOp
+worker/dense_1/bias/Initializer/zeros
+worker/dense_1/bias/Initializer/CollectiveBcastSend
+worker/dense_1/bias/Initializer/Identity
+worker/dense_1/bias
+worker/dense_1/bias/IsInitialized/VarIsInitializedOp
+worker/dense_1/bias/Assign
+worker/dense_1/bias/Read/ReadVariableOp
+worker/dense_1/MatMul/ReadVariableOp
+worker/dense_1/MatMul
+worker/dense_1/BiasAdd/ReadVariableOp
+worker/dense_1/BiasAdd
+worker/sequential/conv2d/Conv2D/ReadVariableOp
+worker/sequential/conv2d/Conv2D
+worker/sequential/conv2d/BiasAdd/ReadVariableOp
+worker/sequential/conv2d/BiasAdd
+worker/sequential/conv2d/Relu
+worker/sequential/max_pooling2d/MaxPool
+worker/sequential/flatten/Reshape/shape
+worker/sequential/flatten/Reshape
+worker/sequential/dense/MatMul/ReadVariableOp
+worker/sequential/dense/MatMul
+worker/sequential/dense/BiasAdd/ReadVariableOp
+worker/sequential/dense/BiasAdd
+worker/sequential/dense/Relu
+worker/sequential/dense_1/MatMul/ReadVariableOp
+worker/sequential/dense_1/MatMul
+worker/sequential/dense_1/BiasAdd/ReadVariableOp
+worker/sequential/dense_1/BiasAdd
+worker/sparse_categorical_crossentropy/Shape
+worker/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/Shape
+worker/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits
+worker/sparse_categorical_crossentropy/weighted_loss/Cast/x
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/weights/shape
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/weights/rank
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/values/shape
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/values/rank
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/static_scalar_check_success
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like/Shape
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like/Const
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights
+worker/sparse_categorical_crossentropy/weighted_loss/Mul
+worker/Const_2
+worker/Sum
+worker/mul/y
+worker/mul
+worker/mul_1/y
+worker/mul_1
+worker/gradients/Shape
+worker/gradients/grad_ys_0
+worker/gradients/Fill
+worker/gradients/mul_1_grad/Mul
+worker/gradients/mul_1_grad/Mul_1
+worker/gradients/mul_1_grad/tuple/group_deps
+worker/gradients/mul_1_grad/tuple/control_dependency
+worker/gradients/mul_1_grad/tuple/control_dependency_1
+worker/gradients/mul_grad/Mul
+worker/gradients/mul_grad/Mul_1
+worker/gradients/mul_grad/tuple/group_deps
+worker/gradients/mul_grad/tuple/control_dependency
+worker/gradients/mul_grad/tuple/control_dependency_1
+worker/gradients/Sum_grad/Reshape/shape
+worker/gradients/Sum_grad/Reshape
+worker/gradients/Sum_grad/Shape
+worker/gradients/Sum_grad/Tile
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Shape
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Shape_1
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/BroadcastGradientArgs
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Mul
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Sum
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Reshape
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Mul_1
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Sum_1
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Reshape_1
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/group_deps
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/control_dependency
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/control_dependency_1
+worker/gradients/zeros_like
+worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/PreventGradient
+worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/ExpandDims/dim
+worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/ExpandDims
+worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/mul
+worker/gradients/sequential/dense_1/BiasAdd_grad/BiasAddGrad
+worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/group_deps
+worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/control_dependency
+worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/control_dependency_1
+worker/gradients/sequential/dense_1/MatMul_grad/MatMul
+worker/gradients/sequential/dense_1/MatMul_grad/MatMul_1
+worker/gradients/sequential/dense_1/MatMul_grad/tuple/group_deps
+worker/gradients/sequential/dense_1/MatMul_grad/tuple/control_dependency
+worker/gradients/sequential/dense_1/MatMul_grad/tuple/control_dependency_1
+worker/gradients/sequential/dense/Relu_grad/ReluGrad
+worker/gradients/sequential/dense/BiasAdd_grad/BiasAddGrad
+worker/gradients/sequential/dense/BiasAdd_grad/tuple/group_deps
+worker/gradients/sequential/dense/BiasAdd_grad/tuple/control_dependency
+worker/gradients/sequential/dense/BiasAdd_grad/tuple/control_dependency_1
+worker/gradients/sequential/dense/MatMul_grad/MatMul
+worker/gradients/sequential/dense/MatMul_grad/MatMul_1
+worker/gradients/sequential/dense/MatMul_grad/tuple/group_deps
+worker/gradients/sequential/dense/MatMul_grad/tuple/control_dependency
+worker/gradients/sequential/dense/MatMul_grad/tuple/control_dependency_1
+worker/gradients/sequential/flatten/Reshape_grad/Shape
+worker/gradients/sequential/flatten/Reshape_grad/Reshape
+worker/gradients/sequential/max_pooling2d/MaxPool_grad/MaxPoolGrad
+worker/gradients/sequential/conv2d/Relu_grad/ReluGrad
+worker/gradients/sequential/conv2d/BiasAdd_grad/BiasAddGrad
+worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/group_deps
+worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/control_dependency
+worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/control_dependency_1
+worker/gradients/sequential/conv2d/Conv2D_grad/ShapeN
+worker/gradients/sequential/conv2d/Conv2D_grad/Conv2DBackpropInput
+worker/gradients/sequential/conv2d/Conv2D_grad/Conv2DBackpropFilter
+worker/gradients/sequential/conv2d/Conv2D_grad/tuple/group_deps
+worker/gradients/sequential/conv2d/Conv2D_grad/tuple/control_dependency
+worker/gradients/sequential/conv2d/Conv2D_grad/tuple/control_dependency_1
+worker/allreduce/CollectiveReduce
+worker/allreduce/CollectiveReduce_1
+worker/allreduce/CollectiveReduce_2
+worker/allreduce/CollectiveReduce_3
+worker/allreduce/CollectiveReduce_4
+worker/allreduce/CollectiveReduce_5
+worker/GradientDescent/learning_rate
+worker/GradientDescent/update_0/update_conv2d/kernel/ResourceApplyGradientDescent
+worker/GradientDescent/update_0_1/update_conv2d/bias/ResourceApplyGradientDescent
+worker/GradientDescent/update_0_2/update_dense/kernel/ResourceApplyGradientDescent
+worker/GradientDescent/update_0_3/update_dense/bias/ResourceApplyGradientDescent
+worker/GradientDescent/update_0_4/update_dense_1/kernel/ResourceApplyGradientDescent
+worker/GradientDescent/update_0_5/update_dense_1/bias/ResourceApplyGradientDescent
+worker/GradientDescent/update_0_6/update
+worker/GradientDescent/update_0_7/Const
+worker/GradientDescent/update_0_7/AssignAddVariableOp
+worker/GradientDescent/update_0_7/ReadVariableOp
+worker/allreduce_1/CollectiveReduce
+worker/truediv/y
+worker/truediv
+worker/Identity_2
+worker/Const_3
+worker/Const_4
+worker/report_uninitialized_variables/VarIsInitializedOp
+worker/report_uninitialized_variables/VarIsInitializedOp_1
+worker/report_uninitialized_variables/LogicalAnd
+worker/report_uninitialized_variables/VarIsInitializedOp_2
+worker/report_uninitialized_variables/VarIsInitializedOp_3
+worker/report_uninitialized_variables/LogicalAnd_1
+worker/report_uninitialized_variables/VarIsInitializedOp_4
+worker/report_uninitialized_variables/VarIsInitializedOp_5
+worker/report_uninitialized_variables/LogicalAnd_2
+worker/report_uninitialized_variables/VarIsInitializedOp_6
+worker/report_uninitialized_variables/VarIsInitializedOp_7
+worker/report_uninitialized_variables/LogicalAnd_3
+worker/report_uninitialized_variables/VarIsInitializedOp_8
+worker/report_uninitialized_variables/VarIsInitializedOp_9
+worker/report_uninitialized_variables/LogicalAnd_4
+worker/report_uninitialized_variables/VarIsInitializedOp_10
+worker/report_uninitialized_variables/VarIsInitializedOp_11
+worker/report_uninitialized_variables/LogicalAnd_5
+worker/report_uninitialized_variables/VarIsInitializedOp_12
+worker/report_uninitialized_variables/VarIsInitializedOp_13
+worker/report_uninitialized_variables/LogicalAnd_6
+worker/report_uninitialized_variables/stack
+worker/report_uninitialized_variables/LogicalNot
+worker/report_uninitialized_variables/Const
+worker/report_uninitialized_variables/boolean_mask/Shape
+worker/report_uninitialized_variables/boolean_mask/strided_slice/stack
+worker/report_uninitialized_variables/boolean_mask/strided_slice/stack_1
+worker/report_uninitialized_variables/boolean_mask/strided_slice/stack_2
+worker/report_uninitialized_variables/boolean_mask/strided_slice
+worker/report_uninitialized_variables/boolean_mask/Prod/reduction_indices
+worker/report_uninitialized_variables/boolean_mask/Prod
+worker/report_uninitialized_variables/boolean_mask/Shape_1
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack_1
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack_2
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1
+worker/report_uninitialized_variables/boolean_mask/Shape_2
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack_1
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack_2
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2
+worker/report_uninitialized_variables/boolean_mask/concat/values_1
+worker/report_uninitialized_variables/boolean_mask/concat/axis
+worker/report_uninitialized_variables/boolean_mask/concat
+worker/report_uninitialized_variables/boolean_mask/Reshape
+worker/report_uninitialized_variables/boolean_mask/Reshape_1/shape
+worker/report_uninitialized_variables/boolean_mask/Reshape_1
+worker/report_uninitialized_variables/boolean_mask/Where
+worker/report_uninitialized_variables/boolean_mask/Squeeze
+worker/report_uninitialized_variables/boolean_mask/GatherV2/axis
+worker/report_uninitialized_variables/boolean_mask/GatherV2
+worker/loss/tags
+worker/loss
+worker/group_deps_1
+worker/group_deps_2
+worker/group_deps_3
+worker/group_deps_4
+worker/group_deps_5
+worker/group_deps_6
+worker/group_deps_7
+worker/group_deps_8
+worker/init
+worker/init_1
+worker/group_deps_9/NoOp
+worker/group_deps_9/NoOp_1
+worker/group_deps_9
+worker/report_uninitialized_variables_1/VarIsInitializedOp
+worker/report_uninitialized_variables_1/VarIsInitializedOp_1
+worker/report_uninitialized_variables_1/LogicalAnd
+worker/report_uninitialized_variables_1/VarIsInitializedOp_2
+worker/report_uninitialized_variables_1/VarIsInitializedOp_3
+worker/report_uninitialized_variables_1/LogicalAnd_1
+worker/report_uninitialized_variables_1/VarIsInitializedOp_4
+worker/report_uninitialized_variables_1/VarIsInitializedOp_5
+worker/report_uninitialized_variables_1/LogicalAnd_2
+worker/report_uninitialized_variables_1/VarIsInitializedOp_6
+worker/report_uninitialized_variables_1/VarIsInitializedOp_7
+worker/report_uninitialized_variables_1/LogicalAnd_3
+worker/report_uninitialized_variables_1/VarIsInitializedOp_8
+worker/report_uninitialized_variables_1/VarIsInitializedOp_9
+worker/report_uninitialized_variables_1/LogicalAnd_4
+worker/report_uninitialized_variables_1/VarIsInitializedOp_10
+worker/report_uninitialized_variables_1/VarIsInitializedOp_11
+worker/report_uninitialized_variables_1/LogicalAnd_5
+worker/report_uninitialized_variables_1/VarIsInitializedOp_12
+worker/report_uninitialized_variables_1/VarIsInitializedOp_13
+worker/report_uninitialized_variables_1/LogicalAnd_6
+worker/report_uninitialized_variables_1/stack
+worker/report_uninitialized_variables_1/LogicalNot
+worker/report_uninitialized_variables_1/Const
+worker/report_uninitialized_variables_1/boolean_mask/Shape
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack_1
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack_2
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice
+worker/report_uninitialized_variables_1/boolean_mask/Prod/reduction_indices
+worker/report_uninitialized_variables_1/boolean_mask/Prod
+worker/report_uninitialized_variables_1/boolean_mask/Shape_1
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack_1
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack_2
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1
+worker/report_uninitialized_variables_1/boolean_mask/Shape_2
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack_1
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack_2
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2
+worker/report_uninitialized_variables_1/boolean_mask/concat/values_1
+worker/report_uninitialized_variables_1/boolean_mask/concat/axis
+worker/report_uninitialized_variables_1/boolean_mask/concat
+worker/report_uninitialized_variables_1/boolean_mask/Reshape
+worker/report_uninitialized_variables_1/boolean_mask/Reshape_1/shape
+worker/report_uninitialized_variables_1/boolean_mask/Reshape_1
+worker/report_uninitialized_variables_1/boolean_mask/Where
+worker/report_uninitialized_variables_1/boolean_mask/Squeeze
+worker/report_uninitialized_variables_1/boolean_mask/GatherV2/axis
+worker/report_uninitialized_variables_1/boolean_mask/GatherV2
+worker/report_uninitialized_resources/Const
+worker/concat/axis
+worker/concat
+worker/init_2
+worker/init_all_tables
+worker/init_3
+worker/group_deps_10
+worker/Merge/MergeSummary
+worker/save/filename/input
+worker/save/filename
+worker/save/Const
+worker/save/Read/ReadVariableOp
+worker/save/Identity
+worker/save/Identity_1
+worker/save/Read_1/ReadVariableOp
+worker/save/Identity_2
+worker/save/Identity_3
+worker/save/Read_2/ReadVariableOp
+worker/save/Identity_4
+worker/save/Identity_5
+worker/save/Read_3/ReadVariableOp
+worker/save/Identity_6
+worker/save/Identity_7
+worker/save/Read_4/ReadVariableOp
+worker/save/Identity_8
+worker/save/Identity_9
+worker/save/Read_5/ReadVariableOp
+worker/save/Identity_10
+worker/save/Identity_11
+worker/save/Read_6/ReadVariableOp
+worker/save/Identity_12
+worker/save/Identity_13
+worker/save/StringJoin/inputs_1
+worker/save/StringJoin
+worker/save/num_shards
+worker/save/ShardedFilename/shard
+worker/save/ShardedFilename
+worker/save/Read_7/ReadVariableOp
+worker/save/Identity_14
+worker/save/Identity_15
+worker/save/Read_8/ReadVariableOp
+worker/save/Identity_16
+worker/save/Identity_17
+worker/save/Read_9/ReadVariableOp
+worker/save/Identity_18
+worker/save/Identity_19
+worker/save/Read_10/ReadVariableOp
+worker/save/Identity_20
+worker/save/Identity_21
+worker/save/Read_11/ReadVariableOp
+worker/save/Identity_22
+worker/save/Identity_23
+worker/save/Read_12/ReadVariableOp
+worker/save/Identity_24
+worker/save/Identity_25
+worker/save/Read_13/ReadVariableOp
+worker/save/Identity_26
+worker/save/Identity_27
+worker/save/SaveV2/tensor_names
+worker/save/SaveV2/shape_and_slices
+worker/save/SaveV2
+worker/save/control_dependency
+worker/save/MergeV2Checkpoints/checkpoint_prefixes
+worker/save/MergeV2Checkpoints
+worker/save/Identity_28
+worker/save/RestoreV2/tensor_names
+worker/save/RestoreV2/shape_and_slices
+worker/save/RestoreV2
+worker/save/AssignVariableOp
+worker/save/ReadVariableOp
+worker/save/group_deps
+worker/save/AssignVariableOp_1
+worker/save/ReadVariableOp_1
+worker/save/group_deps_1
+worker/save/AssignVariableOp_2
+worker/save/ReadVariableOp_2
+worker/save/group_deps_2
+worker/save/AssignVariableOp_3
+worker/save/ReadVariableOp_3
+worker/save/group_deps_3
+worker/save/AssignVariableOp_4
+worker/save/ReadVariableOp_4
+worker/save/group_deps_4
+worker/save/AssignVariableOp_5
+worker/save/ReadVariableOp_5
+worker/save/group_deps_5
+worker/save/AssignVariableOp_6
+worker/save/ReadVariableOp_6
+worker/save/group_deps_6
+worker/save/restore_shard
+worker/save/restore_all
+worker/TensorSliceDataset: (TensorSliceDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ParallelInterleaveDatasetV2: (ParallelInterleaveDatasetV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/ParallelMapDataset: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ParallelMapDataset_1: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/PrefetchDataset: (PrefetchDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/TensorSliceDataset_1: (TensorSliceDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ShuffleDataset: (ShuffleDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ParallelInterleaveDatasetV2_1: (ParallelInterleaveDatasetV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/ParallelMapDataset_2: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ParallelMapDataset_3: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/PrefetchDataset_1: (PrefetchDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ShardDataset: (ShardDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.155821: I tensorflow/core/common_runtime/placer.cc:54] worker/TensorSliceDataset: (TensorSliceDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.156052: I tensorflow/core/common_runtime/placer.cc:54] worker/ParallelInterleaveDatasetV2: (ParallelInterleaveDatasetV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.156286: I tensorflow/core/common_runtime/placer.cc:54] worker/ParallelMapDataset: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.156517: I tensorflow/core/common_runtime/placer.cc:54] worker/ParallelMapDataset_1: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.156722: I tensorflow/core/common_runtime/placer.cc:54] worker/PrefetchDataset: (PrefetchDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.156927: I tensorflow/core/common_runtime/placer.cc:54] worker/TensorSliceDataset_1: (TensorSliceDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.157131: I tensorflow/core/common_runtime/placer.cc:54] worker/ShuffleDataset: (ShuffleDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.157359: I tensorflow/core/common_runtime/placer.cc:54] worker/ParallelInterleaveDatasetV2_1: (ParallelInterleaveDatasetV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.157598: I tensorflow/core/common_runtime/placer.cc:54] worker/ParallelMapDataset_2: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.157822: I tensorflow/core/common_runtime/placer.cc:54] worker/ParallelMapDataset_3: (ParallelMapDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.158041: I tensorflow/core/common_runtime/placer.cc:54] worker/PrefetchDataset_1: (PrefetchDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.158252: I tensorflow/core/common_runtime/placer.cc:54] worker/ShardDataset: (ShardDataset): /job:worker/replica:0/task:worker/MapDataset: (MapDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/CacheDataset: (CacheDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ShuffleDataset_1: (ShuffleDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/BatchDatasetV2: (BatchDatasetV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/OptimizeDataset: (OptimizeDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/ModelDataset: (ModelDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/MultiDeviceIteratorInit: (MultiDeviceIteratorInit): /job:worker/replica:0/task:0/device:CPU:0
+worker/MultiDeviceIteratorToSt0/device:CPU:0
+2019-10-30 17:26:29.158980: I tensorflow/core/common_runtime/placer.cc:54] worker/MapDataset: (MapDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.159174: I tensorflow/core/common_runtime/placer.cc:54] worker/CacheDataset: (CacheDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.159375: I tensorflow/core/common_runtime/placer.cc:54] worker/ShuffleDataset_1: (ShuffleDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.159576: I tensorflow/core/common_runtime/placer.cc:54] worker/BatchDatasetV2: (BatchDatasetV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.159779: I tensorflow/core/common_runtime/placer.cc:54] worker/OptimizeDataset: (OptimizeDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.159979: I tensorflow/core/common_runtime/placer.cc:54] worker/ModelDataset: (ModelDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.160194: I tensorflow/core/common_runtime/placer.cc:54] worker/MultiDeviceIteratorInit: (MultiDeviceIteratorInit): /job:worker/replica:0/task:0/device:CPU:0
+ringHandle: (MultiDeviceIteratorToStringHandle): /job:worker/replica:0/task:0/device:CPU:0
+worker/GeneratorDataset: (GeneratorDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/GeneratorDataset_1: (GeneratorDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/PrefetchDataset_2: (PrefetchDataset): /job:worker/replica:0/task:0/device:CPU:0
+worker/MakeIterator: (MakeIterator): /job:worker/replica:0/task:0/device:CPU:0
+worker/IteratorToStringHandle: (IteratorToStringHandle): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/global_step/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+worker/global_step/Initializer/Identity: (Identity): /job:wo2019-10-30 17:26:29.160691: I tensorflow/core/common_runtime/placer.cc:54] worker/MultiDeviceIteratorToStringHandle: (MultiDeviceIteratorToStringHandle): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.160923: I tensorflow/core/common_runtime/placer.cc:54] worker/GeneratorDataset: (GeneratorDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.161127: I tensorflow/core/common_runtime/placer.cc:54] worker/GeneratorDataset_1: (GeneratorDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.161337: I tensorflow/core/common_runtime/placer.cc:54] worker/PrefetchDataset_2: (PrefetchDataset): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.161537: I tensorflow/core/common_runtime/placer.cc:54] worker/MakeIterator: (MakeIterator): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.161743: I tensorflow/core/common_runtime/placer.cc:54] worker/IteratorToStringHandle: (IteratorToStringHandle): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.161939: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.162150: I tensorflow/core/common_runtime/placer.cc:54] worker/global_step/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.162683: I tensorflow/core/common_runtime/placer.cc:54] worker/global_step/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+rker/replica:0/task:0/device:CPU:0
+worker/global_step/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/global_step/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/global_step/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/Identity/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/Identity_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/IteratorGetNext: (IteratorGetNext): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.163012: I tensorflow/core/common_runtime/placer.cc:54] worker/global_step/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.163233: I tensorflow/core/common_runtime/placer.cc:54] worker/global_step/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.163443: I tensorflow/core/common_runtime/placer.cc:54] worker/global_step/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.163662: I tensorflow/core/common_runtime/placer.cc:54] worker/Identity/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.163856: I tensorflow/core/common_runtime/placer.cc:54] worker/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.164033: I tensorflow/core/common_runtime/placer.cc:54] worker/Identity_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.164219: I tensorflow/core/common_runtime/placer.cc:54] worker/IteratorGetNext: (IteratorGetNext): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/random_uniform/sub: (Sub): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/random_uniform/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/random_uniform: (Add): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.164675: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.164917: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/random_uniform/sub: (Sub): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.165136: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/random_uniform/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.165354: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/random_uniform: (Add): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.165589: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.165825: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.166058: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.166293: I tensorflow/core/common_runtimworker/conv2d/kernel/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/bias/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/bias/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/bias/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/bias/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/bias/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/Conv2D/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+e/placer.cc:54] worker/conv2d/kernel/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.166887: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.167129: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/bias/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.167357: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/bias/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.167590: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/bias/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.167819: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/bias/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.168038: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/bias/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.168263: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/Convworker/conv2d/Conv2D: (Conv2D): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+worker/max_pooling2d/MaxPool: (MaxPool): /job:worker/replica:0/task:0/device:CPU:0
+worker/flatten/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/random_uniform/sub: (Sub): /job:worker/replica:0/task:0/device:CPU:0
+2D/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.168808: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/Conv2D: (Conv2D): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.169015: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.169221: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.169403: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.169590: I tensorflow/core/common_runtime/placer.cc:54] worker/max_pooling2d/MaxPool: (MaxPool): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.169782: I tensorflow/core/common_runtime/placer.cc:54] worker/flatten/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.170004: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.170248: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/random_uworker/dense/kernel/Initializer/random_uniform/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/random_uniform: (Add): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+niform/sub: (Sub): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.170824: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/random_uniform/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.171052: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/random_uniform: (Add): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.171293: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.171532: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.171767: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.171991: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.172201: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0worker/dense/bias/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/bias/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/bias/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/bias/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/bias/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0/task:0/device:CPU:0
+2019-10-30 17:26:29.172788: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/bias/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.173020: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/bias/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.173250: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/bias/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.173476: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/bias/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.173691: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/bias/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.173909: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.174108: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.174601: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+
+worker/dense/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/random_uniform/sub: (Sub): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/random_uniform/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/random_uniform: (Add): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.174918: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.175096: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.175312: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.175549: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/random_uniform/sub: (Sub): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.175770: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/random_uniform/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.175993: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/random_uniform: (Add): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.176229: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/Colworker/dense_1/kernel/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/bias/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/bias/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/bias/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+lectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.176779: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.177022: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.177254: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.177470: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.177706: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/bias/Initializer/CollectiveBcastSend: (CollectiveBcastSend): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.177943: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/bias/Initializer/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.178175: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/bias/IsInitialized/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/devicworker/dense_1/bias/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/bias/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/conv2d/Conv2D/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/conv2d/Conv2D: (Conv2D): /job:worker/replica:0/task:0/device:CPU:0
+e:CPU:0
+2019-10-30 17:26:29.178744: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/bias/Assign: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.178960: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/bias/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.179182: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.179389: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.179594: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.179799: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.180008: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/conv2d/Conv2D/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.180220: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/conv2d/Conv2D: (Conv2worker/sequential/conv2d/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/conv2d/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/conv2d/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/max_pooling2d/MaxPool: (MaxPool): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/flatten/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+D): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.180768: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/conv2d/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.180993: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/conv2d/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.181189: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/conv2d/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.181393: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/max_pooling2d/MaxPool: (MaxPool): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.181600: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/flatten/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.181814: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.182030: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.182245: I tensorflow/core/common_runtworker/sequential/dense/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense_1/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/dense_1/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropime/placer.cc:54] worker/sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.182822: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.183019: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense/Relu: (Relu): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.183227: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.183447: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense_1/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.183663: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.183885: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/dense_1/BiasAdd: (BiasAdd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.184096: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.184612: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+yWithLogits/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits: (SparseSoftmaxCrossEntropyWithLogits): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/values/shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/static_scalar_check_success: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast2019-10-30 17:26:29.185086: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits: (SparseSoftmaxCrossEntropyWithLogits): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.185431: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/values/shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.185751: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/static_scalar_check_success: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.186060: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+_weights/ones_like: (Fill): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/Sum: (Sum): /job:worker/replica:0/task:0/device:CPU:0
+worker/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/Fill: (Fill): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_1_grad/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_1_grad/Mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.186635: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like: (Fill): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.186905: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.187145: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.187345: I tensorflow/core/common_runtime/placer.cc:54] worker/Sum: (Sum): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.187506: I tensorflow/core/common_runtime/placer.cc:54] worker/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.187670: I tensorflow/core/common_runtime/placer.cc:54] worker/mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.187846: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/Fill: (Fill): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.188037: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_1_grad/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.188233: I tensorflow/core/common_runtime/placer.cc:54] worker/worker/gradients/mul_1_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_1_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_1_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_grad/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_grad/Mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/mul_grad/tuple/control_dependency_1: (Identity): /jobgradients/mul_1_grad/Mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.188779: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_1_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.189004: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_1_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.189242: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_1_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.189455: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_grad/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.189646: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_grad/Mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.189844: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.190060: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.190563: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/mul_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+:worker/replica:0/task:0/device:CPU:0
+worker/gradients/Sum_grad/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/Sum_grad/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/Sum_grad/Tile: (Tile): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Shape_1: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/BroadcastGradientArgs: (BroadcastGradientArgs): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.190943: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/Sum_grad/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.191146: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/Sum_grad/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.191347: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/Sum_grad/Tile: (Tile): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.191577: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.191842: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Shape_1: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.192131: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/BroadcastGradientArgs: (BroadcastGradienworker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Sum: (Sum): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Sum_1: (Sum): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Reshape_1: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/tArgs): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.192727: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.192994: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Sum: (Sum): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.193269: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.193548: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Mul_1: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.193818: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Sum_1: (Sum): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.194089: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/Reshape_1: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/zeros_like: (ZerosLike): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/PreventGradient: (PreventGradient): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/ExpandDims: (ExpandDims): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.194634: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.194924: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.195224: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/weighted_loss/Mul_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.195475: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/zeros_like: (ZerosLike): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.195768: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/PreventGradient: (PreventGradient): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.196154: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropworker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/MatMul_grad/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+yWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/ExpandDims: (ExpandDims): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.196865: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/mul: (Mul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.197163: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.197411: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.197673: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.197945: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/BiasAdd_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.198197: I tensorflow/core/common_runtime/placer.cc:54] worworker/gradients/sequential/dense_1/MatMul_grad/MatMul_1: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/MatMul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/MatMul_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense_1/MatMul_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/Relu_grad/ReluGrad: (ReluGrad): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/BiasAdd_grad/tker/gradients/sequential/dense_1/MatMul_grad/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.198782: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/MatMul_grad/MatMul_1: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.199030: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/MatMul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.199289: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/MatMul_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.199554: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense_1/MatMul_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.199805: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/Relu_grad/ReluGrad: (ReluGrad): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.200047: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:worker/replica:0/task:0/device:CPU:0
+uple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/BiasAdd_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/BiasAdd_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/MatMul_grad/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/MatMul_grad/MatMul_1: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/MatMul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/dense/MatMul_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.200598: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/BiasAdd_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.200857: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/BiasAdd_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.201119: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/BiasAdd_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.201371: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/MatMul_grad/MatMul: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.201604: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/MatMul_grad/MatMul_1: (MatMul): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.201846: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/MatMul_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.202099: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/MatMul_grad/tuple/control_dependency: (Identity): /job:worker/worker/gradients/sequential/dense/MatMul_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/flatten/Reshape_grad/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/flatten/Reshape_grad/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/max_pooling2d/MaxPool_grad/MaxPoolGrad: (MaxPoolGrad): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/Relu_grad/ReluGrad: (ReluGrad): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.202778: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/dense/MatMul_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.203030: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/flatten/Reshape_grad/Shape: (Shape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.203267: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/flatten/Reshape_grad/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.203517: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/max_pooling2d/MaxPool_grad/MaxPoolGrad: (MaxPoolGrad): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.203765: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/Relu_grad/ReluGrad: (ReluGrad): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.204002: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/Conv2D_grad/ShapeN: (ShapeN): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/Conv2D_grad/Conv2DBackpropInput: (Conv2DBackpropInput): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/Conv2D_grad/Conv2DBackpropFilter: (Conv2DBackpropFilter): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/Conv2D_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.204251: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.204863: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.205138: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/BiasAdd_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.205396: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/Conv2D_grad/ShapeN: (ShapeN): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.205650: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/Conv2D_grad/Conv2DBackpropInput: (Conv2DBackpropInput): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.205920: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/Conv2D_grad/Conv2DBackpropFilter: (Conv2DBackpropFilter): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.206176: I tensorflow/core/common_runtime/placer.cc:54] worworker/gradients/sequential/conv2d/Conv2D_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sequential/conv2d/Conv2D_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/allreduce/CollectiveReduce: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+worker/allreduce/CollectiveReduce_1: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+worker/allreduce/CollectiveReduce_2: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+worker/allreduce/CollectiveReduce_3: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+worker/allreduce/CollectiveReduce_4: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+ker/gradients/sequential/conv2d/Conv2D_grad/tuple/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.206774: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/Conv2D_grad/tuple/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.207037: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sequential/conv2d/Conv2D_grad/tuple/control_dependency_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.207283: I tensorflow/core/common_runtime/placer.cc:54] worker/allreduce/CollectiveReduce: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.207506: I tensorflow/core/common_runtime/placer.cc:54] worker/allreduce/CollectiveReduce_1: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.207732: I tensorflow/core/common_runtime/placer.cc:54] worker/allreduce/CollectiveReduce_2: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.207953: I tensorflow/core/common_runtime/placer.cc:54] worker/allreduce/CollectiveReduce_3: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.208173: I tensorflow/core/common_runtime/placer.cworker/allreduce/CollectiveReduce_5: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0/update_conv2d/kernel/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_1/update_conv2d/bias/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_2/update_dense/kernel/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_3/update_dense/bias/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_4/update_dense_1/kernel/ResourceApplyGradientDescent:c:54] worker/allreduce/CollectiveReduce_4: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.208759: I tensorflow/core/common_runtime/placer.cc:54] worker/allreduce/CollectiveReduce_5: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.209020: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0/update_conv2d/kernel/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.209331: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_1/update_conv2d/bias/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.209640: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_2/update_dense/kernel/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.209960: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_3/update_dense/bias/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+ (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_5/update_dense_1/bias/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_6/update: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_7/AssignAddVariableOp: (AssignAddVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_7/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/allreduce_1/CollectiveReduce: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+worker/truediv: (RealDiv): /job:worker/replica:0/task:0/device:CPU:0
+worker/Identity_2: (Identity): /job:wor2019-10-30 17:26:29.210592: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_4/update_dense_1/kernel/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.210915: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_5/update_dense_1/bias/ResourceApplyGradientDescent: (ResourceApplyGradientDescent): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.211175: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_6/update: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.211402: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_7/AssignAddVariableOp: (AssignAddVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.211642: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_7/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.211873: I tensorflow/core/common_runtime/placer.cc:54] worker/allreduce_1/CollectiveReduce: (CollectiveReduce): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.212069: I tensorflow/core/common_runtime/placer.cc:54] worker/truediv: (RealDiv): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.212548: I tensorflow/core/common_runtime/placer.cc:54] worker/Identity_2: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+ker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_1: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/LogicalAnd: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_2: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_3: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/LogicalAnd_1: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.212864: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.213127: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_1: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.213382: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/LogicalAnd: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.213627: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_2: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.213881: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_3: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.214124: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialiworker/report_uninitialized_variables/VarIsInitializedOp_4: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_5: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/LogicalAnd_2: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_6: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_7: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/LogicalAnd_3: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_8: (VarIsInitializedOp)zed_variables/LogicalAnd_1: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.214693: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_4: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.214956: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_5: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.215209: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/LogicalAnd_2: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.215465: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_6: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.215728: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_7: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.215978: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/LogicalAnd_3: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+: /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_9: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/LogicalAnd_4: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_10: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_11: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/LogicalAnd_5: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/VarIsInitializedOp_12: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.216523: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_8: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.216784: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_9: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.217030: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/LogicalAnd_4: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.217280: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_10: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.217549: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_11: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.217804: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/LogicalAnd_5: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.218055: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uniniworker/report_uninitialized_variables/VarIsInitializedOp_13: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/LogicalAnd_6: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/stack: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+tialized_variables/VarIsInitializedOp_12: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.218677: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/VarIsInitializedOp_13: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.218924: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/LogicalAnd_6: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.219153: I tensorflow/core/common_runtime/placer.cc:54] worker/worker/report_uninitialized_variables/LogicalNot: (LogicalNot): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Prod: (Prod): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/concat/values_1: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/concat: (ConcatV2): /job:worker/replica:0/task:0/device:CPU:0
+report_uninitialized_variables/stack: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.219518: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/LogicalNot: (LogicalNot): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.219772: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.220023: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Prod: (Prod): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.220278: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_1: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.220550: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_2: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.220810: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/concat/values_1: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.221058: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolworker/report_uninitialized_variables/boolean_mask/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Reshape_1: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Where: (Where): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Squeeze: (Squeeze): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/GatherV2: (GatherV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/loss: (ScalarSummary): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_1: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+ean_mask/concat: (ConcatV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.221698: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.221941: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Reshape_1: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.222179: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Where: (Where): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.222418: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Squeeze: (Squeeze): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.222665: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/GatherV2: (GatherV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.222885: I tensorflow/core/common_runtime/placer.cc:54] worker/loss: (ScalarSummary): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.223069: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_1: (NoOp)worker/group_deps_2: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_3: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_4: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_5: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_6: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_7: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_8: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/init: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/init_1: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+: /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.223605: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_2: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.223787: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_3: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.223965: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_4: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.224140: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_5: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.224326: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_6: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.224516: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_7: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.224707: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_8: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.224887: I tensorflow/core/common_runtime/placer.cc:54] worker/init: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.225062: I tensorflow/core/common_runtime/placer.cc:54] worker/init_1: (Nworker/group_deps_9/NoOp: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+oOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.225593: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_9/NoOp: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.225784: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_9/NoOp_1: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_9/NoOp_1: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_9: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp: (VarIsInitializedOp): /job:w2019-10-30 17:26:29.225971: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_9: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+orker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_1: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalAnd: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_2: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_3: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalAnd_1: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_4: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.226342: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.226609: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_1: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.226864: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalAnd: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.227122: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_2: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.227417: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_3: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.227704: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalAnd_1: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.227972: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_4: (VarIsInitializedOp): /job:worker/replica:0/task:0/deviworker/report_uninitialized_variables_1/VarIsInitializedOp_5: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalAnd_2: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_6: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_7: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalAnd_3: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_8: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variablce:CPU:0
+2019-10-30 17:26:29.228630: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_5: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.228892: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalAnd_2: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.229151: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_6: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.229437: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_7: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.229696: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalAnd_3: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.229955: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_8: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+es_1/VarIsInitializedOp_9: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalAnd_4: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_10: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_11: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalAnd_5: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_12: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/VarIsInitializedOp_13: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.230527: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_9: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.230789: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalAnd_4: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.231049: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_10: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.231330: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_11: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.231599: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalAnd_5: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.231858: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_12: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalAnd_6: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/stack: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/LogicalNot: (LogicalNot): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Prod: (Prod): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.232146: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/VarIsInitializedOp_13: (VarIsInitializedOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.232788: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalAnd_6: (LogicalAnd): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.233027: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/stack: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.233264: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/LogicalNot: (LogicalNot): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.233524: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.233780: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Prod: (Prod): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.234035: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialiworker/report_uninitialized_variables_1/boolean_mask/strided_slice_2: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/concat/values_1: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/concat: (ConcatV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Reshape_1: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Where: (Where): /job:worker/replica:0/task:0/device:CPU:0
+zed_variables_1/boolean_mask/strided_slice_1: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.234722: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2: (StridedSlice): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.234996: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/concat/values_1: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.235255: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/concat: (ConcatV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.235508: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Reshape: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.235761: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Reshape_1: (Reshape): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.236010: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Where: (Where): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.236667: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Squeeze: (Squeeze): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.236925: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/GatherV2: (GatherV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Squeeze: (Squeeze): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/GatherV2: (GatherV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/concat: (ConcatV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/init_2: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/init_all_tables: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/init_3: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/group_deps_10: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/Merge/MergeSummary: (MergeSummary): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/filename: (PlaceholderWithDefault): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Const: (PlaceholderWithDefault): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.237158: I tensorflow/core/common_runtime/placer.cc:54] worker/concat: (ConcatV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.237475: I tensorflow/core/common_runtime/placer.cc:54] worker/init_2: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.237657: I tensorflow/core/common_runtime/placer.cc:54] worker/init_all_tables: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.237838: I tensorflow/core/common_runtime/placer.cc:54] worker/init_3: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.238016: I tensorflow/core/common_runtime/placer.cc:54] worker/group_deps_10: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.238210: I tensorflow/core/common_runtime/placer.cc:54] worker/Merge/MergeSummary: (MergeSummary): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.238419: I tensorflow/core/common_runtime/placer.cc:54] worker/save/filename: (PlaceholderWithDefault): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.238631: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Const: (PlaceholderWithDefault): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.238843: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.239048: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.239694: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.239897: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_1/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_1: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_1/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_2: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_3: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_2/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_4: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_5: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_3/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_6: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_7: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_4/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_8: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.240108: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_2: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.240448: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_3: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.240656: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_2/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.240861: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_4: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.241051: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_5: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.241263: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_3/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.241471: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_6: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.241667: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_7: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.241872: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_4/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:2worker/save/Identity_9: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_5/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_10: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_11: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_6/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_12: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_13: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/StringJoin:6:29.242078: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_8: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.242749: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_9: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.242957: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_5/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.243167: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_10: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.243359: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_11: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.243562: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_6/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.243773: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_12: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.243967: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_13: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.244480: I tensorflow/core/common_runtime/placer.cc:54] worker/save/StringJoin: (StringJoin): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.244775: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ShardedFilename: (ShardedFilename): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.244993: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_7/ReadVariableOp: (ReadVar (StringJoin): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ShardedFilename: (ShardedFilename): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_7/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_14: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_15: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_8/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_16: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_17: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_9/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_18: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_19: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_10/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_20: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+iableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.245318: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_14: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.245515: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_15: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.245723: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_8/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.245930: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_16: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.246125: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_17: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.246330: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_9/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.246537: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_18: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.246731: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_19: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.246939: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_10/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_21: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_11/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_22: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_23: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Read_12/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_24: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_25: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.247170: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_20: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.247806: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_21: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.248015: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_11/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.248225: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_22: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.248422: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_23: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.248632: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_12/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.248835: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_24: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.249025: I tensorflow/core/common_runtime/pworker/save/Read_13/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_26: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_27: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+lacer.cc:54] worker/save/Identity_25: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.249627: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Read_13/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.249839: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_26: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.250035: I tensorflow/core/commoworker/save/SaveV2: (SaveV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/MergeV2Checkpoints/checkpoint_prefixes: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/MergeV2Checkpoints: (MergeV2Checkpoints): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/Identity_28: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/RestoreV2: (RestoreV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/AssignVariableOp: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/group_deps: (NoOp): /job:worker/replica:0/task:0/devin_runtime/placer.cc:54] worker/save/Identity_27: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.250436: I tensorflow/core/common_runtime/placer.cc:54] worker/save/SaveV2: (SaveV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.250632: I tensorflow/core/common_runtime/placer.cc:54] worker/save/control_dependency: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.250852: I tensorflow/core/common_runtime/placer.cc:54] worker/save/MergeV2Checkpoints/checkpoint_prefixes: (Pack): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.251085: I tensorflow/core/common_runtime/placer.cc:54] worker/save/MergeV2Checkpoints: (MergeV2Checkpoints): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.251290: I tensorflow/core/common_runtime/placer.cc:54] worker/save/Identity_28: (Identity): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.251477: I tensorflow/core/common_runtime/placer.cc:54] worker/save/RestoreV2: (RestoreV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.251680: I tensorflow/core/common_runtime/placer.cc:54] worker/save/AssignVariableOp: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.251891: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ReadVariableOp: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.252428: I tensorflow/core/common_runtime/placer.cc:54] worker/save/group_deps: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.252906: I tensorflow/core/common_runtime/placer.cc:54] worker/save/AssignVariableOp_1: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.253122: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ReadVariableOp_1: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.253322: I tensorflow/core/common_runtime/placer.cc:54] worker/save/group_deps_1: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.253525: I tensorflow/core/common_runtime/placer.cc:54] worker/save/AssignVariableOp_2: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.253737: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ReadVariableOp_2: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.253934: I tensorflow/core/common_runtime/placer.cc:54] worker/save/group_deps_2: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+201ce:CPU:0
+worker/save/AssignVariableOp_1: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ReadVariableOp_1: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+9-10-30 17:26:29.25worker/save/group_deps_1: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/AssignVariableOp_2: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ReadVariableOp_2: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/group_deps_2: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/AssignVariableOp_3: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+4401: I tensorflow/core/common_runtime/placer.cc:54] worker/save/AssignVariableOp_3: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ReadVariableOp_3: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/group_deps_3: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/AssignVariableOp_4: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ReadVariableOp_4: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/group_deps_4: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/AssignVariableOp_5: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ReadVariableOp_5: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.254737: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ReadVariableOp_3: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.254938: I tensorflow/core/common_runtime/placer.cc:54] worker/save/group_deps_3: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.255143: I tensorflow/core/common_runtime/placer.cc:54] worker/save/AssignVariableOp_4: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.255355: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ReadVariableOp_4: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.255555: I tensorflow/core/common_runtime/placer.cc:54] worker/save/group_deps_4: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.255756: I tensorflow/core/common_runtime/placer.cc:54] worker/save/AssignVariableOp_5: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.255968: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ReadVariableOp_5: (Rworker/save/group_deps_5: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/AssignVariableOp_6: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ReadVariableOp_6: (ReadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+eadVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.256551: I tensorflow/core/common_runtime/placer.cc:54] worker/save/group_deps_5: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.256751: I tensorflow/core/common_runtime/placer.cc:54] worker/save/AssignVariableOp_6: (AssignVariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.256963: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ReadVariableOp_6: (Readworker/save/group_deps_6: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/restore_shard: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/restore_all: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+init: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/normalize_element/component_0: (Const): /job:worker/replica:0/task:0/device:CPU:0
+VariableOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.257342: I tensorflow/core/common_runtime/placer.cc:54] worker/save/group_deps_6: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.257536: I tensorflow/core/common_runtime/placer.cc:54] worker/save/restore_shard: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.257729: I tensorflow/core/common_runtime/placer.cc:54] worker/save/restore_all: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.257902: I tensorflow/core/common_runtime/placer.cc:54] init: (NoOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/cycle_length: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/block_length: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/num_parallel_calls: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/num_parallel_calls_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/num_parallel_calls_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/buffer_size: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/normalize_element_1/component_0: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/buffer_size_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/seed: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.258096: I tensorflow/core/common_runtime/placer.cc:54] worker/normalize_element/component_0: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.258491: I tensorflow/core/common_runtime/placer.cc:54] worker/cycle_length: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.258676: I tensorflow/core/common_runtime/placer.cc:54] worker/block_length: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.258864: I tensorflow/core/common_runtime/placer.cc:54] worker/num_parallel_calls: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.259057: I tensorflow/core/common_runtime/placer.cc:54] worker/num_parallel_calls_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.259250: I tensorflow/core/common_runtime/placer.cc:54] worker/num_parallel_calls_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.259441: I tensorflow/core/common_runtime/placer.cc:54] worker/buffer_size: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.259639: I tensorflow/core/common_runtime/placer.cc:54] worker/normalize_element_1/component_0: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.259837: I tensorflow/core/common_runtime/placer.cc:54] worker/buffer_size_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.260014: I tensworker/seed2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/cycle_length_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/block_length_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/num_parallel_calls_3: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/num_parallel_calls_4: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/num_parallel_calls_5: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/buffer_size_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/num_shards: (Const): /job:worker/replica:0/task:0/device:CPU:0
+orflow/core/common_runtime/placer.cc:54] worker/seed: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.260648: I tensorflow/core/common_runtime/placer.cc:54] worker/seed2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.260831: I tensorflow/core/common_runtime/placer.cc:54] worker/cycle_length_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.261017: I tensorflow/core/common_runtime/placer.cc:54] worker/block_length_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.261210: I tensorflow/core/common_runtime/placer.cc:54] worker/num_parallel_calls_3: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.261410: I tensorflow/core/common_runtime/placer.cc:54] worker/num_parallel_calls_4: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.261607: I tensorflow/core/common_runtime/placer.cc:54] worker/num_parallel_calls_5: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.261792: I tensorflow/core/common_runtime/placer.cc:54] worker/buffer_size_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.261970: I tensorflow/core/common_runtime/placer.cc:54] worker/num_shards: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/index: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/filename: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/buffer_size_3: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/seed_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/seed2_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/batch_size: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/drop_remainder: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/optimizations: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.262547: I tensorflow/core/common_runtime/placer.cc:54] worker/index: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.262723: I tensorflow/core/common_runtime/placer.cc:54] worker/filename: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.262905: I tensorflow/core/common_runtime/placer.cc:54] worker/buffer_size_3: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.263085: I tensorflow/core/common_runtime/placer.cc:54] worker/seed_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.263261: I tensorflow/core/common_runtime/placer.cc:54] worker/seed2_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.263437: I tensorflow/core/common_runtime/placer.cc:54] worker/batch_size: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.263620: I tensorflow/core/common_runtime/placer.cc:54] worker/drop_remainder: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.263805: I tensorflow/core/common_runtime/placer.cc:54] worker/optimizations: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.263982: I tensorflow/core/common_runtime/placer.cc:54] worker/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/MultiDeviceIterator: (MultiDeviceIterator): /job:worker/replica:0/task:0/device:CPU:0
+worker/MultiDeviceIteratorInit/max_buffer_size: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/buffer_size_4: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/IteratorV2: (IteratorV2): /job:worker/replica:0/task:0/device:CPU:0
+worker/global_step/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/global_step: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/Const_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d_input: (Placeholder): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/random_uniform/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.264538: I tensorflow/core/common_runtime/placer.cc:54] worker/MultiDeviceIterator: (MultiDeviceIterator): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.264758: I tensorflow/core/common_runtime/placer.cc:54] worker/MultiDeviceIteratorInit/max_buffer_size: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.264964: I tensorflow/core/common_runtime/placer.cc:54] worker/buffer_size_4: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.265151: I tensorflow/core/common_runtime/placer.cc:54] worker/IteratorV2: (IteratorV2): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.265348: I tensorflow/core/common_runtime/placer.cc:54] worker/global_step/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.265548: I tensorflow/core/common_runtime/placer.cc:54] worker/global_step: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.265731: I tensorflow/core/common_runtime/placer.cc:54] worker/Const_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.265914: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d_input: (Placeholder): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.266427: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/random_uniform/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/random_uniform/min: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel/Initializer/random_uniform/max: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/kernel: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/bias/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/bias: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/conv2d/dilation_rate: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/flatten/Reshape/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.266779: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/random_uniform/min: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.267010: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel/Initializer/random_uniform/max: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.267225: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/kernel: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.267426: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/bias/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.267628: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/bias: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.267821: I tensorflow/core/common_runtime/placer.cc:54] worker/conv2d/dilation_rate: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.268018: I tensorflow/core/common_runtime/placer.cc:54] worker/flatten/Reshape/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.268619: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/random_uniform/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.268850: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/random_uniform/min: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/random_uniform/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/random_uniform/min: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel/Initializer/random_uniform/max: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/kernel: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/bias/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense/bias: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/random_uniform/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/random_uniform/min: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel/Initializer/random_uniform/max: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/kernel: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/bias/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/dense_1/bias: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.269193: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel/Initializer/random_uniform/max: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.269409: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/kernel: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.269609: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/bias/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.269809: I tensorflow/core/common_runtime/placer.cc:54] worker/dense/bias: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.270024: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/random_uniform/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.270261: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/random_uniform/min: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.270496: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel/Initializer/random_uniform/max: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.270709: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/kernel: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.270907: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/bias/Initializer/zeros: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.271466: I tensorflow/core/common_runtime/placer.cc:54] worker/dense_1/bias: (VarHandleOp): /job:worker/replica:0/task:0/device:CPU:0
+worker/sequential/flatten/Reshape/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/Cast/x: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.271778: I tensorflow/core/common_runtime/placer.cc:54] worker/sequential/flatten/Reshape/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.272011: I tensorflow/core/common_runtime/pworker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/weights/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/weights/rank: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/values/rank: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/Const_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/mul/y: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/mul_1/y: (Const): /job:worker/replica:0/task:0/device:CPU:0
+lacer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/Cast/x: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.272442: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/weights/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.272768: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/weights/rank: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.273096: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/assert_broadcastable/values/rank: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.273402: I tensorflow/core/common_runtime/placer.cc:54] worker/sparse_categorical_crossentropy/weighted_loss/broadcast_weights/ones_like/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.273631: I tensorflow/core/common_runtime/placer.cc:54] worker/Const_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.273799: I tensorflow/core/common_runtime/placer.cc:54] worker/mul/y: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.273972: I tensorflow/core/common_runtime/placer.cc:54] worker/mul_1/y: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/Shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/grad_ys_0: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/Sum_grad/Reshape/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/ExpandDims/dim: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/learning_rate: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/GradientDescent/update_0_7/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/truediv/y: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.274582: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/Shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.274774: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/grad_ys_0: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.274978: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/Sum_grad/Reshape/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.275276: I tensorflow/core/common_runtime/placer.cc:54] worker/gradients/sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits_grad/ExpandDims/dim: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.275573: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/learning_rate: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.275785: I tensorflow/core/common_runtime/placer.cc:54] worker/GradientDescent/update_0_7/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.275977: I tensorflow/core/common_runtime/placer.cc:54] worker/truediv/y: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/Const_3: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/Const_4: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.276540: I tensorflow/core/common_runtime/placer.cc:54] worker/Const_3: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.276713: I tensorflow/core/common_runtime/placer.cc:54] worker/Const_4: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.276912: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.277145: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.277397: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.277663: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.277931: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Prod/reduction_indices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Shape_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Shape_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.278586: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Prod/reduction_indices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.278839: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Shape_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.279097: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.279367: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.279637: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_1/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.279894: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Shape_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/concat/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/Reshape_1/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables/boolean_mask/GatherV2/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/loss/tags: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.280509: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.280779: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.281044: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/strided_slice_2/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.281304: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/concat/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.281560: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/Reshape_1/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.281818: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables/boolean_mask/GatherV2/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.282039: I tensorflow/core/common_runtime/placer.cc:54] worker/loss/tags: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Prod/reduction_indices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.282673: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.282909: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.283165: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.283430: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.283701: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.283974: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Prod/reduction_indices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Shape_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.284664: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Shape_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.284926: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.285200: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Shape_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.285473: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice_1/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.285732: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Shape_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.286012: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.286690: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.286977: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/strided_slice_2/stack_2: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/concat/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/Reshape_1/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_variables_1/boolean_mask/GatherV2/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/report_uninitialized_resources/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/concat/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/filename/input: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/StringJoin/inputs_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/num_shards: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.287419: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/concat/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.287678: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/Reshape_1/shape: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.287939: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_variables_1/boolean_mask/GatherV2/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.288178: I tensorflow/core/common_runtime/placer.cc:54] worker/report_uninitialized_resources/Const: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.288374: I tensorflow/core/common_runtime/placer.cc:54] worker/concat/axis: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.288561: I tensorflow/core/common_runtime/placer.cc:54] worker/save/filename/input: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.288759: I tensorflow/core/common_runtime/placer.cc:54] worker/save/StringJoin/inputs_1: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.288953: I tensorflow/core/common_runtime/placer.cc:54] worker/save/num_shards: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.289626: I tensorflow/core/common_runtime/placer.cc:54] worker/save/ShardedFilename/shard: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.289830: I tensorflow/core/common_runtime/placer.cc:54] worker/save/SaveV2/tensor_names: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/ShardedFilename/shard: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/SaveV2/tensor_names: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/SaveV2/shape_and_slices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/RestoreV2/tensor_names: (Const): /job:worker/replica:0/task:0/device:CPU:0
+worker/save/RestoreV2/shape_and_slices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.290165: I tensorflow/core/common_runtime/placer.cc:54] worker/save/SaveV2/shape_and_slices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.290374: I tensorflow/core/common_runtime/placer.cc:54] worker/save/RestoreV2/tensor_names: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.290582: I tensorflow/core/common_runtime/placer.cc:54] worker/save/RestoreV2/shape_and_slices: (Const): /job:worker/replica:0/task:0/device:CPU:0
+2019-10-30 17:26:29.332667: W tensorflow/core/common_runtime/base_collective_executor.cc:216] BaseCollectiveExecutor::StartAbort Failed precondition: Error while reading resource variable dense_1/bias from Container: worker. This could mean that the variable was uninitialized. Not found: Container worker does not exist. (Could not find resource: worker/dense_1/bias)
+	 [[{{node worker/sequential/dense_1/BiasAdd/ReadVariableOp}}]]
+Traceback (most recent call last):
+  File "C:\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\client\session.py", line 1365, in _do_call
+    return fn(*args)
+  File "C:\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\client\session.py", line 1350, in _run_fn
+    target_list, run_metadata)
+  File "C:\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\client\session.py", line 1443, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.FailedPreconditionError: From /job:worker/replica:0/task:0:
+Error while reading resource variable dense_1/bias from Container: worker. This could mean that the variable was uninitialized. Not found: Container worker does not exist. (Could not find resource: worker/dense_1/bias)
+	 [[{{node worker/sequential/dense_1/BiasAdd/ReadVariableOp}}]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Wu/Desktop/checkpoint_test/t0.py", line 50, in <module>
+    _, train_loss = sess.run([train_op, loss])
+  File "C:\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\client\session.py", line 956, in run
+    run_metadata_ptr)
+  File "C:\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\client\session.py", line 1180, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\client\session.py", line 1359, in _do_run
+    run_metadata)
+  File "C:\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\client\session.py", line 1384, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.FailedPreconditionError: From /job:worker/replica:0/task:0:
+Error while reading resource variable dense_1/bias from Container: worker. This could mean that the variable was uninitialized. Not found: Container worker does not exist. (Could not find resource: worker/dense_1/bias)
+	 [[node worker/sequential/dense_1/BiasAdd/ReadVariableOp (defined at \Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\ops.py:1751) ]]
+
+Original stack trace for 'worker/sequential/dense_1/BiasAdd/ReadVariableOp':
+  File "/Users/Wu/Desktop/checkpoint_test/t0.py", line 43, in <module>
+    with tf.compat.v1.Session(target=server.target, graph=load_graph("./graph0.pbtxt")) as sess:
+  File "/Users/Wu/Desktop/checkpoint_test/t0.py", line 27, in load_graph
+    tf.import_graph_def(gdef,name="worker")
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\util\deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\importer.py", line 405, in import_graph_def
+    producer_op_list=producer_op_list)
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\importer.py", line 517, in _import_graph_def_internal
+    _ProcessNewOps(graph)
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\importer.py", line 243, in _ProcessNewOps
+    for new_op in graph._add_new_tf_operations(compute_devices=False):  # pylint: disable=protected-access
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\ops.py", line 3564, in _add_new_tf_operations
+    for c_op in c_api_util.new_tf_operations(self)
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\ops.py", line 3564, in <listcomp>
+    for c_op in c_api_util.new_tf_operations(self)
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\ops.py", line 3454, in _create_op_from_tf_operation
+    ret = Operation(c_op, self)
+  File "\Users\Wu\Anaconda3\envs\TF2CPU\lib\site-packages\tensorflow_core\python\framework\ops.py", line 1751, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+
+Process finished with exit code 1
